@@ -1,0 +1,93 @@
+h1, p, li, label, input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+body{
+    background: #252525;
+}
+label{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+
+}
+.columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 500px;
+
+
+}
+.input-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 200px;
+    max-height: 72px;
+    min-width: 200px;
+    min-height: 72px;
+    border-radius: 10px;
+    padding: 21px 10px;
+    font-size: 20px;
+
+}
+
+.input-sumbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 202px;
+    background-color: #008f94;
+    border: solid 1px #06005f;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+.input-sumbit:hover{
+    transform: scale(0.95);
+}
+.note-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px dotted #fff;
+    border-radius: 15px;
+    padding: 15px 50px 15px 50px;
+
+    transition: 0.2s all;
+}
+/* remove btn */
+.remove-note{
+    cursor: pointer;
+    color: #ff0000;
+    font-weight: bold;
+    float: right;
+    margin-left: 15px;
+
+}
